@@ -223,3 +223,35 @@ div.skill{
 .experience-location ,.experience-date{
     opacity: 0.7;
 }
+@media only screen and (max-width:1120px){
+    #contact{
+        position: relative;
+        width: 100%;
+        top:0;
+        left: 0;
+        justify-content: end;
+    }
+    .contact-value{
+        background-color: white;
+        width: 100px;
+    }
+    h3{
+        position: relative;
+        left: 0px;
+    }
+    .content section{
+        position: 0;
+        flex: 0 0 100%;
+    }
+    h1{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width:500px){
+    header div{
+        display: block;
+    }
+    h1{
+        margin-top: 0;
+    }
+}
